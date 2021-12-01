@@ -43,13 +43,14 @@ export default function Navigation() {
               padding: 0;
               position: fixed;
               top: 0;
-              background-color: #fff;
+              background-color: #222;
               display: flex;
               flex-direction: column;
               justify-content: center;
               z-index: 1;
               transform: translateY(100%);
               transition: opacity 200ms;
+              color: #fff;
             }
             .active ul {
               opacity: 1;
@@ -64,7 +65,7 @@ export default function Navigation() {
               margin-bottom: 0;
             }
             .active {
-              color: #222;
+              color: rgba(255, 255, 255, 0.5);
             }
 
             @media (min-width: 769px) {
