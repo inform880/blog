@@ -3,6 +3,7 @@ import BasicMeta from "../components/meta/BasicMeta";
 import OpenGraphMeta from "../components/meta/OpenGraphMeta";
 import TwitterCardMeta from "../components/meta/TwitterCardMeta";
 import { SocialList } from "../components/SocialList";
+import Image from 'next/image';
 
 export default function Index() {
   return (
@@ -12,6 +13,7 @@ export default function Index() {
       <TwitterCardMeta url={"/"} />
       <div className="container">
         <div>
+          <Image src="/home.jpg" alt="me" width="225" height="300" />
           <h1>
             Hi, I'm mia fallon
           </h1>
