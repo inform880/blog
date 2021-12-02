@@ -18,6 +18,7 @@ export default function Index() {
           </h1>
           <span className="handle">@inform880</span>
           <h2>this is a small blog about web dev and tech and stuff</h2>
+          <p>I hope to use this blog to help up and coming developers reach their next stage in learning web development</p>
           <SocialList />
         </div>
       </div>
@@ -37,7 +38,7 @@ export default function Index() {
         h2 {
           font-size: 1.75rem;
           font-weight: 400;
-          line-height: 1.25;
+          line-height: 0.5;
         }
         .handle {
           display: inline-block;
